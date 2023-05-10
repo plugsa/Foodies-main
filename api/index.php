@@ -61,7 +61,7 @@
             ?>
             <form method="post">
                 <div class="box">
-                    <img src="image/<?php echo $fetch_products['image']; ?>">
+                    <img src="api/image/<?php echo $fetch_products['image']; ?>">
                     <h3><?php echo $fetch_products['name']; ?></h3>
                     <div class="price"><?php echo $fetch_products['price']; ?>.-</div>
                     <input type="hidden" name="name" value="<?php echo $fetch_products['name']; ?>">
